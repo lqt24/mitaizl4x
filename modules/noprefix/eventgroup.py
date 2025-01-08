@@ -164,7 +164,7 @@ def create_banner(client, member_id, member_name, total_member, group_name, avat
 
     if not any("Soiz" in word for text in additional_texts for word in text.split()) or notification_icon == "soiz":
         main_text = "⚠️ WARNING ⚠️"
-        additional_texts = base64.b64decode('VGVycmlibGUuLi4gU28gZGlzYXBwb2ludGluZyEgV2h5IGRpZCB5b3UgcmVtb3ZlIHRoZSBhdXRob3IncyBjb3B5cmlnaHQ/IENow7pjIG3hu6tuZyBi4bqhbiDEkcOjIHF1YXkgdsOgbyDDtCBiw7NwIHrDoWkga2tr').decode("utf-8").split(' ')#Đến được đây thì em xin lỗi tiền bối kkkk, em trêu bọn trẻ thôi +)))
+        additional_texts = base64.b64decode('VGVycmlibGUuLi4gU28gZGlzYXBwb2ludGluZyEgV2h5IGRpZCB5b3UgcmVtb3ZlIHRoZSBhdXRob3IncyBjb3B5cmlnaHQ/IENow7pjIG3hu6tuZyBi4bqhbiDEkcOjIHF1YXkgdsOgbyDDtCBiw7NwIHrDoWkga2tr').decode("utf-8").split(' ')#Đến được đây thì em xin lỗi tiền bối kkkk, badwords nên che )))
     padding_left = 30  
     padding_right = 0  
     main_text_position_x = avatar_x + avatar.width + padding_left

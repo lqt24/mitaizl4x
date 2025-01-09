@@ -4,7 +4,7 @@ import os
 import re
 import os
 import json
-SETTING_FILE= "setting.json"
+SETTING_FILE= "seting.json"
 #Không chỉnh sửa nếu bạn không có kinh nghiệm
 def read_settings():
     """Đọc toàn bộ nội dung từ file JSON."""
